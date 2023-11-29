@@ -15,7 +15,7 @@ function Gallery({ gallery }) {
           <img className="image" src={gallery.images[slideVisible]} alt="" />
         )}
         {slideVisible == gallery.images.length && (
-          <div className="image">
+          <div className="title">
             <h3>{gallery.title}</h3>
           </div>
         )}

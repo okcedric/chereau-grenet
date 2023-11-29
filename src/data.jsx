@@ -29,7 +29,9 @@
         "https://cg.okcedric.com/wp-content/uploads/2023/09/andro3-2.png",
         "https://cg.okcedric.com/wp-content/uploads/2023/09/IMG_0554.pdf-Page-1-of-3.png",
       ],
-    },
+    }, 
+    
+     
   ];
 
 export default data
