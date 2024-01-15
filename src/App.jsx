@@ -1,6 +1,6 @@
 import "./App.css";
 import data from "./data";
-import Grid from "./grid";
+import Grid from "./Grid";
 import Contact from "./Contact";
 import { useState } from "react";
 
