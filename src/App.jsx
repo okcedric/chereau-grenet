@@ -16,6 +16,7 @@ function App() {
       <main>
         <nav>
           <img
+            loading="lazy"
             className="logo"
             src="https://cg.okcedric.com/wp-content/uploads/2023/09/Logo-roue2-1-150x150.png"
             alt=""
@@ -28,7 +29,7 @@ function App() {
         <div className="grid">
           <Grid data={data} />
         </div>
-        {overlay && <Contact  toggleContact={toggleContact}/>}
+        {overlay && <Contact toggleContact={toggleContact} />}
       </main>
     );
 }
