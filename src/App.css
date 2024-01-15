@@ -19,15 +19,18 @@ nav {
   padding: 1rem 4rem;
   margin: 0;
 }
+
 .nav-item{
   font-size: 1.272rem;
   border-bottom: 4px solid transparent;
   transition: all .5s;
   line-height: 1;
 }
+
 .nav-item:hover {
   color: black;
 }
+
 .logo{
   width: 75px;
 }
@@ -53,11 +56,13 @@ nav {
     user-select: none;
     min-height: 60vh;
 }
+
 h3{
   font-size: 1.725rem;
   width: 100%;
   text-align: center;
 }
+
 .gallery .image{
   display: flex;
   width: 100%;
